@@ -1,0 +1,39 @@
+{
+  "accountAssociation": { 
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "baseBuilder": {
+    "ownerAddress": "0x"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Close Guess",
+    "homeUrl": "https://ex.co",
+    "iconUrl": "https://ex.co/icon.png",
+    "splashImageUrl": "https://ex.co/splash.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://ex.co/api/webhook",
+    "subtitle": "Predict and win ETH on Base",
+    "description": "A fast, fun way to challenge friends in real time.",
+    "screenshotUrls": [
+      "https://ex.co/screenshot.png"
+    ],
+    "requiredChains": [
+      "eip155:8453"
+    ],
+    "requiredCapabilities": [
+      "actions.signIn",
+      "wallet.getEthereumProvider"
+    ],
+    "primaryCategory": "finance",
+    "tags": ["prediction", "miniapp", "baseapp"],
+    "heroImageUrl": "https://ex.co/og.png",
+    "tagline": "Play instantly",
+    "ogTitle": "BTC Predciction Market",
+    "ogDescription": "Predic BTC price and win ETH on base.",
+    "ogImageUrl": "https://ex.co/og.png",
+    "noindex": true
+  }
+}
