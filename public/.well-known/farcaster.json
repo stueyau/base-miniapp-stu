@@ -34,6 +34,6 @@
     "ogTitle": "BTC Predciction Market",
     "ogDescription": "Predic BTC price and win ETH on base.",
     "ogImageUrl": "https://miniapp-dun-eta.vercel.app/og.png",
-    "noindex": true
+    "noindex": false
   }
 }
