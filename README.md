@@ -1,6 +1,6 @@
-# BTC Prediction Market - Farcaster Mini App
+# BTC Prediction Market - Base Mini App
 
-A prediction market mini app built on Base where users predict BTC prices in 15-minute rounds.
+A prediction market mini app built on Base where users predict BTC prices in 15-minute rounds and can have a chance to win ETH on Base.
 
 ## Features
 
@@ -27,20 +27,12 @@ A prediction market mini app built on Base where users predict BTC prices in 15-
 npm install
 ```
 
-2. Update `public/.well-known/farcaster.json`:
-   - Replace placeholder URLs with your domain
-   - Add account association signature (use Warpcast Mini App Manifest Tool)
-
-3. Update `index.html`:
-   - Replace `your-domain.com` with your actual domain
-   - Add proper image URLs for icons and splash screens
-
-4. Run development server:
+2. Run development server:
 ```bash
 npm run dev
 ```
 
-5. Build for production:
+3. Build for production:
 ```bash
 npm run build
 ```
@@ -60,26 +52,3 @@ https://warpcast.com/~/developers/mini-apps
 ### Deployment
 Deploy to a public domain with HTTPS and serve the farcaster.json file at:
 `https://your-domain.com/.well-known/farcaster.json`
-
-## Project Structure
-
-```
-src/
-├── components/     # React components
-├── hooks/          # Custom React hooks
-├── config/         # Configuration files
-├── utils/          # Utility functions
-├── styles/         # CSS and style constants
-└── assets/         # Static assets
-```
-
-## Base Brand Colors
-
-- Primary Blue: #0052FF
-- Black: #000000
-- White: #FFFFFF
-- Grays: #F7F7F7 to #1A1A1A
-
-## License
-
-MIT
