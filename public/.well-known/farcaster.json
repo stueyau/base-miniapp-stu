@@ -1,11 +1,11 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjMyMDg5OCwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDU0YThmMDk5ZTg0MDZFNzFBRjkyYTY0MDRFNDkyOTFjMzMzQjczMzkifQ",
-    "payload": "eyJkb21haW4iOiJtaW5pYXBwLWR1bi1ldGEudmVyY2VsLmFwcCJ9",
-    "signature": "z6HZNmfjubHDwAoY2KNA8CGhu2/9TRe8QrM4L5mOXjpu5DJjrPzLnySPqllSoMA4uKpuehO9g1Uz78/Uf/LjtBw="
+    "header": "eyJmaWQiOjE0NDU2ODIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg0N0NlMzc4Nzg4OTVEMjViQTk5QjY0RDVDZjI3MjQ4ZUI1OTUxQTNiIn0",
+    "payload": "eyJkb21haW4iOiJuZXctbWluaS1hcHAtcXVpY2tzdGFydC1uaXVnLnZlcmNlbC5hcHAifQ",
+    "signature": "c3RD8B4GymZfbBNcNxliC3RyShSNVPn3287rtkcl0V0siJTtkW0HTGSUdHMdVPKZkFUdeFs625bK8/kfjzbBMRs="
   },
   "baseBuilder": {
-    "ownerAddress": "0xf7207ef6bFF15847e5620d4485Ba41A592592421"
+    "ownerAddress": "0xD750903a0BaE0352B863608227aAD119E58BA356"
   },
   "miniapp": {
     "version": "1",
